@@ -68,6 +68,6 @@ python translate.py --input "Your text here"
 - `translate.py`: Contains code for translating English text to Japanese using the trained model.
   
 ## Acknowledgements
-- Dataset: [Link to the dataset](https://huggingface.co/datasets/opus100/viewer/en-ja/train)
+- Dataset: [Link to the dataset](https://huggingface.co/datasets/opus100)
 
 
