@@ -1,5 +1,4 @@
-# TransformerEN-JA_Translation
-# English to Japanese Translation Model
+# English to Japanese Transformer Translation Model
 
 This project contains a model capable of translating text from English to Japanese. It uses a deep learning approach to learn the translation mappings between the two languages.
 
@@ -39,6 +38,33 @@ The project is structured as follows:
 ```bash
 git clone https://github.com/user/repo.git
 
-2. Install dependencies
+2. Navigate to the project directory:
+```bash
+cd repo
+Install the dependencies:
+bash
+Copy code
 pip install -r requirements.txt
+
+### Training
+To train the model, run the following command:
+
+bash
+Copy code
+python train.py
+Translation
+To translate English text to Japanese, run the following command:
+
+bash
+Copy code
+python translate.py --input "Your text here"
+Files
+config.py: Configuration settings for the model.
+EngJp_datasets.py: Functions for loading and processing the English and Japanese datasets.
+model.py: Definition of the translation model.
+train.py: Code for training the model.
+translate.py: Code for translating English text to Japanese using the trained model.
+Acknowledgements
+Dataset: Link to the dataset
+Other references or acknowledgements
 
