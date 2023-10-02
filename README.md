@@ -66,7 +66,8 @@ python translate.py --input "Your text here"
 - `model.py`: Contains the definition of the translation model.
 - `train.py`: Contains code for training the model.
 - `translate.py`: Contains code for translating English text to Japanese using the trained model.
-Acknowledgements
-- - Dataset: [Link to the dataset]([https://dataset.link](https://huggingface.co/datasets/opus100/viewer/en-ja/train)https://huggingface.co/datasets/opus100/viewer/en-ja/train)
+- 
+##Acknowledgements
+- - Dataset: [Link to the dataset](https://dataset.link](https://huggingface.co/datasets/opus100/viewer/en-ja/train)https://huggingface.co/datasets/opus100/viewer/en-ja/train)
 
 
