@@ -37,10 +37,12 @@ The project is structured as follows:
 ```bash
 git clone https://github.com/user/repo.git
 ```
+
 2. Navigate to the project directory:
 ```bash
 cd repo
 ```
+
 ### Install the dependencies:
 ```bash
 pip install -r requirements.txt
@@ -51,11 +53,13 @@ To train the model, run the following command:
 ```bash
 python train.py
 ```
+
 ## Translation
 To translate English text to Japanese, run the following command:
 ``` bash
 python translate.py --input "Your text here"
 ```
+
 ## Files
 - `config.py`: Contains configuration settings for the model.
 - `EngJp_datasets.py`: Contains functions for loading and processing the English and Japanese datasets.
