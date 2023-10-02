@@ -12,7 +12,6 @@ This project contains a model capable of translating text from English to Japane
   - [Translation](#translation)
 - [Files](#files)
 - [Acknowledgements](#acknowledgements)
-- [License](#license)
 
 ## Project Structure
 
@@ -37,34 +36,33 @@ The project is structured as follows:
 1. Clone the repository:
 ```bash
 git clone https://github.com/user/repo.git
-
+```
 2. Navigate to the project directory:
 ```bash
 cd repo
-Install the dependencies:
-bash
-Copy code
+```
+### Install the dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 ### Training
 To train the model, run the following command:
-
-bash
-Copy code
+```bash
 python train.py
-Translation
+```
+## Translation
 To translate English text to Japanese, run the following command:
-
-bash
-Copy code
+``` bash
 python translate.py --input "Your text here"
-Files
-config.py: Configuration settings for the model.
-EngJp_datasets.py: Functions for loading and processing the English and Japanese datasets.
-model.py: Definition of the translation model.
-train.py: Code for training the model.
-translate.py: Code for translating English text to Japanese using the trained model.
+```
+## Files
+- `config.py`: Contains configuration settings for the model.
+- `EngJp_datasets.py`: Contains functions for loading and processing the English and Japanese datasets.
+- `model.py`: Contains the definition of the translation model.
+- `train.py`: Contains code for training the model.
+- `translate.py`: Contains code for translating English text to Japanese using the trained model.
 Acknowledgements
-Dataset: Link to the dataset
-Other references or acknowledgements
+- - Dataset: [Link to the dataset]([https://dataset.link](https://huggingface.co/datasets/opus100/viewer/en-ja/train)https://huggingface.co/datasets/opus100/viewer/en-ja/train)
+
 
