@@ -35,7 +35,7 @@ The project is structured as follows:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/user/repo.git
+git clone https://github.com/AJNatsu/TransformerEN-JA_Translation.git
 ```
 
 2. Navigate to the project directory:
