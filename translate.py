@@ -34,7 +34,7 @@ def translate(sentence: str):
         label = data[id]["trg_text"]
     seq_len = config['seq_len']
 
-    # translate the sentence
+    # translate the sentence word by word
     model.eval()
     with torch.no_grad():
         # Precompute the encoder output and reuse it for every generation step
