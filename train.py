@@ -298,6 +298,7 @@ def train_model(config):
 
 
     # At the end of train_model function
+    #Visualize the training losses
     import matplotlib.pyplot as plt
 
     # Plotting
