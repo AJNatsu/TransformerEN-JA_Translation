@@ -100,7 +100,7 @@ class MHABlock(nn.Module):
             attention_scores = dropout(attention_scores)
 
         return (attention_scores @ value), attention_scores
-        #computes the weighted sum of the value matrix using the attention scores, and return the attention_scores for visualization
+        #(attention_scores @ value), attention_scores computes the weighted sum of the value matrix using the attention scores, and return the attention_scores for visualization
 
 
     def forward(self, q, k, v, mask):
